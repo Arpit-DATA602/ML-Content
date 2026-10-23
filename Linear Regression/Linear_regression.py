@@ -1,6 +1,7 @@
+# Linear Regression
 import numpy as np
 
-class linear_regression:
+class linear_regression:  # creating a class
 
     def __init__(self, lr=0.01, n_iter=1000):
         self.lr=lr
@@ -20,7 +21,7 @@ class linear_regression:
             self.weights-=self.lr*dw
             self.bias-=self.lr*db
 
-    def predict(self,x):
+    def predict(self,x): # Predicting the output 
         y_predicted=np.dot(x,self.weights)+self.bias
         return y_predicted
 
