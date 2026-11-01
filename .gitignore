@@ -1,0 +1,22 @@
+# Ignore Python cache in all folders
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Csv files
+*.csv
